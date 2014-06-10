@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA89A2151772C524000C35D3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA89A2141772C524000C35D3 /* Cocoa.framework */; };
+		AA89A21F1772C524000C35D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA89A21D1772C524000C35D3 /* InfoPlist.strings */; };
+		AA89A2211772C524000C35D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA89A2201772C524000C35D3 /* main.m */; };
+		AA89A2251772C524000C35D3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AA89A2231772C524000C35D3 /* Credits.rtf */; };
+		AA89A2281772C524000C35D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA89A2271772C524000C35D3 /* AppDelegate.m */; };
+		AA89A22B1772C525000C35D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA89A2291772C525000C35D3 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA89A2101772C524000C35D3 /* Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA89A2141772C524000C35D3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA89A2171772C524000C35D3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AA89A2181772C524000C35D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA89A2191772C524000C35D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA89A21C1772C524000C35D3 /* Countdown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Countdown-Info.plist"; sourceTree = "<group>"; };
+		AA89A21E1772C524000C35D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA89A2201772C524000C35D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA89A2221772C524000C35D3 /* Countdown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Countdown-Prefix.pch"; sourceTree = "<group>"; };
+		AA89A2241772C524000C35D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AA89A2261772C524000C35D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA89A2271772C524000C35D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA89A22A1772C525000C35D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA89A20D1772C524000C35D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA89A2151772C524000C35D3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA89A2051772C524000C35D3 = {
+			isa = PBXGroup;
+			children = (
+				AA89A21A1772C524000C35D3 /* Countdown */,
+				AA89A2131772C524000C35D3 /* Frameworks */,
+				AA89A2111772C524000C35D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA89A2111772C524000C35D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA89A2101772C524000C35D3 /* Countdown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA89A2131772C524000C35D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA89A2141772C524000C35D3 /* Cocoa.framework */,
+				AA89A2161772C524000C35D3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA89A2161772C524000C35D3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA89A2171772C524000C35D3 /* AppKit.framework */,
+				AA89A2181772C524000C35D3 /* CoreData.framework */,
+				AA89A2191772C524000C35D3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AA89A21A1772C524000C35D3 /* Countdown */ = {
+			isa = PBXGroup;
+			children = (
+				AA89A2261772C524000C35D3 /* AppDelegate.h */,
+				AA89A2271772C524000C35D3 /* AppDelegate.m */,
+				AA89A2291772C525000C35D3 /* MainMenu.xib */,
+				AA89A21B1772C524000C35D3 /* Supporting Files */,
+			);
+			path = Countdown;
+			sourceTree = "<group>";
+		};
+		AA89A21B1772C524000C35D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA89A21C1772C524000C35D3 /* Countdown-Info.plist */,
+				AA89A21D1772C524000C35D3 /* InfoPlist.strings */,
+				AA89A2201772C524000C35D3 /* main.m */,
+				AA89A2221772C524000C35D3 /* Countdown-Prefix.pch */,
+				AA89A2231772C524000C35D3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA89A20F1772C524000C35D3 /* Countdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA89A22E1772C525000C35D3 /* Build configuration list for PBXNativeTarget "Countdown" */;
+			buildPhases = (
+				AA89A20C1772C524000C35D3 /* Sources */,
+				AA89A20D1772C524000C35D3 /* Frameworks */,
+				AA89A20E1772C524000C35D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Countdown;
+			productName = Countdown;
+			productReference = AA89A2101772C524000C35D3 /* Countdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA89A2071772C524000C35D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ethan Lowman";
+			};
+			buildConfigurationList = AA89A20A1772C524000C35D3 /* Build configuration list for PBXProject "Countdown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA89A2051772C524000C35D3;
+			productRefGroup = AA89A2111772C524000C35D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA89A20F1772C524000C35D3 /* Countdown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA89A20E1772C524000C35D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA89A21F1772C524000C35D3 /* InfoPlist.strings in Resources */,
+				AA89A2251772C524000C35D3 /* Credits.rtf in Resources */,
+				AA89A22B1772C525000C35D3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA89A20C1772C524000C35D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA89A2211772C524000C35D3 /* main.m in Sources */,
+				AA89A2281772C524000C35D3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA89A21D1772C524000C35D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA89A21E1772C524000C35D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA89A2231772C524000C35D3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA89A2241772C524000C35D3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AA89A2291772C525000C35D3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA89A22A1772C525000C35D3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA89A22C1772C525000C35D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA89A22D1772C525000C35D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA89A22F1772C525000C35D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Countdown/Countdown-Prefix.pch";
+				INFOPLIST_FILE = "Countdown/Countdown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA89A2301772C525000C35D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Countdown/Countdown-Prefix.pch";
+				INFOPLIST_FILE = "Countdown/Countdown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA89A20A1772C524000C35D3 /* Build configuration list for PBXProject "Countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA89A22C1772C525000C35D3 /* Debug */,
+				AA89A22D1772C525000C35D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA89A22E1772C525000C35D3 /* Build configuration list for PBXNativeTarget "Countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA89A22F1772C525000C35D3 /* Debug */,
+				AA89A2301772C525000C35D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA89A2071772C524000C35D3 /* Project object */;
+}
